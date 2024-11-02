@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 0.8px solid rgb(0, 0, 0);
+    position: fixed;
+    background-color: #bd1e1e;
+    width: 100%;
+
+
+}
+
+.header h1{
+    color: rgb(255, 241, 241);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-size: 30px;
+    
+}
+
+.topnav {
+    overflow: hidden;
+
+  }
+
+  .topnav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    transition: ease 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .topnav a:hover {
+    color:rgb(255, 255, 255);
+   
+   
+  }
+ 
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+
+  .carsour{
+    background: url(./images/416082841_772507601586623_3637441942124236521_n.jpg)  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,.5);
+    background-position: center;
+        width: 100%;
+        height: 100vh;
+    display: flex;
+        align-items: center;
+        padding: 0px 100px;
+        color: rgb(219, 218, 218);
+    }
+    
+    .carsour div h2{
+        font-size: 40px;
+        color: #cbb9b9;
+        font-weight: 1000;
+       }
+       .carsour div p{
+           font-size: 20px;
+          color: #e4e3e3;
+
+           font-weight:400;
+          }
+          
+       
+       #color{
+            color: rgb(241, 3, 3) ;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size:35px;
+           margin:  0px 10px;
+           font-weight: 1000;
+       }
+       
+       .carsour span{
+           color: rgb(255, 153, 0);
+       }
+       .carsour  a{
+        border: 2px ;
+        border-radius: 10px;
+        width: 135px;
+        background-color: rgb(241, 3, 3) ;
+        padding:10px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: ease .4s;
+        color: white;
+        display: inline-block;
+       font-weight: 700;
+     }
+     
+     .carsour a:hover{
+         width: 140px;
+         background-color: white;
+         color: rgb(253, 0, 0) ;
+         font-weight: 800;
+     
+     }
+     .icons  a{
+    
+    
+        margin: 5px -8px  ;
+        color: white;
+        background: none;
+        font-size: 25px;
+        transition:calc(cubic-bezier(0.175, 0.885, 0.32, 1.275));
+    }
+    
+    .icons a:hover{
+        background: none;
+      
+    }
+
+
+    .Services h2{
+        text-align: center;
+        padding: 20px ;
+        font-size: 40px;
+        margin: 30px;
+        font-weight: 1000;
+   }
+   .Services .container {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0px 80px;
+       justify-content: center;
+   
+   }
+   .Services .cards{
+    
+       margin-right: 20px;
+       box-shadow: 3px 3px 6px 6px #ccc;
+       padding:12px  ;
+       width: 22em;
+       margin-bottom:50px ;
+       text-align: center;
+       transition: ease .4s;
+     
+   }
+   .Services .cards:hover{
+     width: 21em;
+     background-color: rgb(247, 231, 231);
+   }
+   .cards h3{
+    color: crimson;
+    font-weight: 1000;
+    font-size: 25px;
+
+}
+
+.cards p{
+    font-size:20px ;
+    font-weight: 400;
+}
+
+.Services .cards >div{
+  color: #2c3E50;
+  font-size: 50px ;
+}
+   
+    
+    
+ .contact{
+   
+    padding: 0px 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+ 
+ }   
+ 
+
+ .about{
+
+    margin-left:60px;
+  box-shadow: 0px 5px 10px gainsboro;
+  padding: 20px;
+  border-radius: 20px;
+  width:2500px;
+
+
+  
+ }
+.form label{
+    font-size: 20px; 
+    
+}
+.form input{
+    font-size: 25px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f0f0;
+    color: #000000;
+    margin: 10px 0px;
+    padding: 10px;
+
+}
+.form textarea{
+    font-size: 26px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #f5eeee;
+    color: #000000;
+    margin: 10px 0px;
+    padding: 10px;
+
+}
+.form  a{
+    border: 2px ;
+    border-radius: 20px;
+    width: 135px;
+    background-color: rgb(0, 0, 0) ;
+    padding:10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: ease .4s;
+    color: white;
+    display: inline-block;
+   font-weight: 700;
+ text-align: center;
+ 
+ }
+ 
+ .form a:hover{
+    
+     background-color: rgb(211, 139, 6);
+     color: rgb(255, 255, 255) ;
+  
+
+ }
+
+
+.map{
+ 
+    padding: 50px;
+
+    
+}
+
+  footer{
+    background-color: rgb(40, 38, 38);
+    padding: 40px;
+    color: white;
+    font: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+  @media (max-width: 991px) {
+    .header {
+      
+        padding: 10px 20px;
+
+    }
+
+    .header h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .carsour {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .carsour div h2 {
+        font-size: 30px;
+    }
+
+    .carsour div p {
+        font-size: 18px;
+    }
+
+    .icons a {
+        font-size: 20px;
+    }
+
+    .Services .container {
+       
+        padding: 0 20px;
+    }
+
+   
+    .contact {
+        flex-direction: column; /* تغيير الاتجاه ليكون تحت بعض */
+        align-items: center;
+      }
+  
+      .contact div,
+      .contact .about {
+        width: 100%; /* تخصيص العرض ليملأ كامل الشاشة */
+        margin-bottom: 20px; /* إضافة مساحة بين العناصر */
+      }
+  }
+
+
+  
+
+  
+
+
+
+ 
